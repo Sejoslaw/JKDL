@@ -11,4 +11,4 @@ public class JKDL
 	/**
 	 * Current version of JKDL.
 	 */
-	public static final String VERSION = "2017.03.10-18.00.39";}
+	public static final String VERSION = "2017.03.10-18.00.00";}
