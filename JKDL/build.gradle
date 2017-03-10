@@ -18,9 +18,9 @@ version = getVersionFromJava(file("src/main/java/kd/jkdl/JKDL.java"))
 
 String getVersionFromJava(File file) {
 
-	DateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss")
-	Date date = new Date()
-	String buildDate = dateFormat.format(date)
+    DateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd-HH.mm.ss")
+    Date date = new Date()
+    String buildDate = dateFormat.format(date)
 	
     def outfile = "";
     def ln = System.getProperty("line.separator")
