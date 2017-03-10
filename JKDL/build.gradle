@@ -29,7 +29,7 @@ String getVersionFromJava(File file) {
     file.eachLine { String s ->
         String v = s.trim();
         if(v.startsWith(prefix)) {
-            outfile += ("	" + prefix + buildDate + "\";}");
+            outfile += ("	" + prefix + buildDate + "\";");
         }
         else
         {
