@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class JKDL 
 {
 	/**
-	 * Current version of JKDL.
+	 * Current version of JKDL - Last build time.
 	 */
 	public static final String VERSION = "2017.03.10-18.35.52";	
 	/**
