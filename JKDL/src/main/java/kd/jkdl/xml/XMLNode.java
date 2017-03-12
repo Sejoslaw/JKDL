@@ -73,6 +73,10 @@ public class XMLNode
 	 */
 	public Map<String, String> getAttributes()
 	{
+		if(this._attributes == null)
+		{
+			this._attributes = new HashMap<>();
+		}
 		return this._attributes;
 	}
 	
