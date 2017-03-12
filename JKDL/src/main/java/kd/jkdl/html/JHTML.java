@@ -19,7 +19,7 @@ import javax.swing.text.html.MinimalHTMLWriter;
 import javax.swing.text.html.StyleSheet;
 
 /**
- * TODO; Add support for HTML > 3.2
+ * TODO: Add support for HTML > 3.2
  * 
  * This class contains various methods to operate on HTML.
  * 
