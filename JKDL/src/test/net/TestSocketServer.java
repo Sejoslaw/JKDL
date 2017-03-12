@@ -6,7 +6,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Date;
 
-import main.java.kd.jkdl.net.socket.JSocket;
+import main.java.kd.jkdl.net.JSocket;
 
 /**
  * A TCP server that runs on port 9090.  When a client connects, it

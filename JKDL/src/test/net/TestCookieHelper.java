@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.HttpCookie;
 import java.util.List;
 
-import main.java.kd.jkdl.net.cookie.CookieHelper;
+import main.java.kd.jkdl.net.CookieHelper;
 
 /**
  * Basic example of how CookieManager works.

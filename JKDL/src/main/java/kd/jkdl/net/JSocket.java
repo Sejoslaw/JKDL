@@ -1,4 +1,4 @@
-package main.java.kd.jkdl.net.socket;
+package main.java.kd.jkdl.net;
 
 import java.io.IOException;
 import java.net.InetAddress;

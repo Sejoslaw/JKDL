@@ -7,7 +7,7 @@ import java.net.Socket;
 
 import javax.swing.JOptionPane;
 
-import main.java.kd.jkdl.net.socket.JSocket;
+import main.java.kd.jkdl.net.JSocket;
 
 public class TestSocketClient 
 {
