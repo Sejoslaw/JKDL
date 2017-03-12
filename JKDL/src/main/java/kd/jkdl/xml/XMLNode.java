@@ -11,7 +11,7 @@ import java.util.Map.Entry;
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
  */
-public class XMLNode 
+public class XMLNode
 {
 	/**
 	 * Value of one tabulation from left.
@@ -37,6 +37,11 @@ public class XMLNode
 	 * Child Nodes of this Node.
 	 */
 	private List<XMLNode> _childs = new ArrayList<>();
+	
+	/**
+	 * Parent Node of this Node.
+	 */
+	private XMLNode _parent = null;
 	
 	public XMLNode(String nodeName)
 	{
@@ -114,15 +119,32 @@ public class XMLNode
 	}
 	
 	/**
+	 * @return Return Parent Node of this Node.
+	 */
+	public XMLNode getParentNode()
+	{
+		return this._parent;
+	}
+	
+	/**
+	 * Set Parent Node for this Node.
+	 */
+	public void setParentNode(XMLNode newParent)
+	{
+		this._parent = newParent;
+	}
+	
+	/**
 	 * Add new child Node to this Node.
 	 * 
 	 * @param node Child to be add.
 	 * 
 	 * @return Return this Node.
 	 */
-	public XMLNode addChildNode(XMLNode node)
+	public XMLNode addChildNode(XMLNode child)
 	{
-		this._childs.add(node);
+		child.setParentNode(this);
+		this._childs.add(child);
 		return this;
 	}
 	
@@ -133,11 +155,11 @@ public class XMLNode
 	 * 
 	 * @return Return this Node.
 	 */
-	public XMLNode addChildNodes(XMLNode... nodes)
+	public XMLNode addChildNodes(XMLNode... childs)
 	{
-		for(XMLNode node : nodes)
+		for(XMLNode child : childs)
 		{
-			addChildNode(node);
+			addChildNode(child);
 		}
 		return this;
 	}
@@ -176,9 +198,12 @@ public class XMLNode
 		String head = indent + "<" + this._nodeName;
 		if(this._attributes != null)
 		{
-			for(Entry<String, String> attribute : this._attributes.entrySet())
+			if(this._attributes.size() > 0)
 			{
-				head += " " + attribute.getKey() + "=" + "\"" + attribute.getValue() + "\"";
+				for(Entry<String, String> attribute : this._attributes.entrySet())
+				{
+					head += " " + attribute.getKey() + "=" + "\"" + attribute.getValue() + "\"";
+				}
 			}
 		}
 		head += ">";
@@ -215,9 +240,12 @@ public class XMLNode
 		String builded = "<" + this._nodeName;
 		if(this._attributes != null)
 		{
-			for(Entry<String, String> attribute : this._attributes.entrySet())
+			if(this._attributes.size() > 0)
 			{
-				builded += " " + attribute.getKey() + "=" + "\"" + attribute.getValue() + "\"";
+				for(Entry<String, String> attribute : this._attributes.entrySet())
+				{
+					builded += " " + attribute.getKey() + "=" + "\"" + attribute.getValue() + "\"";
+				}
 			}
 		}
 		builded += ">";

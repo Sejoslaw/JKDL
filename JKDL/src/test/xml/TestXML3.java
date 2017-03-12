@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.HashMap;
 
 import main.java.kd.jkdl.xml.XMLNode;
+import main.java.kd.jkdl.xml.XMLPropertiesNode;
 import main.java.kd.jkdl.xml.XMLWriter;
 
 /**
@@ -15,6 +16,8 @@ public class TestXML3
 	{
 		// Create new Writer
 		XMLWriter writer = new XMLWriter();
+		// Add Properties Node to Writer (optional)
+		writer.setPropertiesNode((XMLPropertiesNode) new XMLPropertiesNode().addAttribute("version", "1.0").addAttribute("encoding", "UTF-8"));
 		// Add Nodes to Writer
 		writer.addNodes(
 				new XMLNode("node1", "Text1"),
@@ -37,7 +40,7 @@ public class TestXML3
 							.addChildNode(new XMLNode("childchild51"))
 					)
 		);
-		// Build XML inside Writer (NOTE: XML is not saved yet).
+		// Build XML inside Writer (NOTE: XML is not saved yet, it is only build inside Writer).
 		writer.buildXML();
 		// Print and before printing, return constructed XML in form of String.
 		System.out.print(writer.writeToString());

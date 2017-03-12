@@ -18,7 +18,7 @@ import java.util.List;
  * @see XMLNode
  * @see XMLReader
  */
-public class XMLWriter 
+public class XMLWriter
 {
 	/**
 	 * List of all root Nodes in this Writer.
@@ -34,6 +34,28 @@ public class XMLWriter
 	 * XML List.
 	 */
 	private List<String> _xmlList = new ArrayList<>();
+	
+	/**
+	 * XML Properties Node.
+	 * If it exists it is a first Node in file.
+	 */
+	private XMLPropertiesNode _propertiesNode = null;
+	
+	/**
+	 * @return Return the Properties Node.
+	 */
+	public XMLPropertiesNode getPropertiesNode()
+	{
+		return this._propertiesNode;
+	}
+	
+	/**
+	 * Set Properties Node.
+	 */
+	public void setPropertiesNode(XMLPropertiesNode newPropertiesNode)
+	{
+		this._propertiesNode = newPropertiesNode;
+	}
 	
 	/**
 	 * Add Nodes to writer.
@@ -88,12 +110,20 @@ public class XMLWriter
 	{
 		// Build XML String
 		this._xmlString = "";
+		if(this._propertiesNode != null)
+		{
+			this._xmlString += this._propertiesNode.build();
+		}
 		for(XMLNode rootNode : this._rootNodes)
 		{
 			this._xmlString += rootNode.build();
 		}
 		// Build XML List
 		this._xmlList.clear();
+		if(this._propertiesNode != null)
+		{
+			this._xmlList.add(this._propertiesNode.build());
+		}
 		for(XMLNode rootNode : this._rootNodes)
 		{
 			this._xmlList.addAll(rootNode.build(""));
