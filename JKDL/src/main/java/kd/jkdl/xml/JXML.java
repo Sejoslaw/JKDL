@@ -93,7 +93,7 @@ import org.xml.sax.helpers.XMLReaderAdapter;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 /**
- * This class contains various methods to operate on XML files.
+ * This class contains various methods to operate on Java XML API and files.
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
  * 
