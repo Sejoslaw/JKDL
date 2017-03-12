@@ -3,7 +3,7 @@ package test.serialization;
 import java.io.File;
 import java.io.IOException;
 
-import main.java.kd.jkdl.serialization.serialization.JavaSerialization;
+import main.java.kd.jkdl.serialization.JavaSerialization;
 
 /**
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw

@@ -1,4 +1,4 @@
-package main.java.kd.jkdl.serialization.serialization;
+package main.java.kd.jkdl.serialization;
 
 /**
  * Serialization based on byte-array.

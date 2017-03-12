@@ -1,4 +1,4 @@
-package main.java.kd.jkdl.serialization.recovery;
+package main.java.kd.jkdl.serialization;
 
 import java.io.File;
 import java.io.FileInputStream;
