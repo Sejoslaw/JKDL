@@ -11,7 +11,7 @@ public class MainClass
 {
 	public static void main(String[] args) 
 	{
-		String testPicture = "C:\\Users\\Krzysztof\\Desktop\\pb.png";
+		String testPicture = "C:/Test/pb.png";
 		try 
 		{
 			JKDLImage image = new JKDLImage(testPicture);
@@ -26,7 +26,7 @@ public class MainClass
 			System.out.println(rfih.getG(7, 1));
 			System.out.println(rfih.getB(7, 1));
 			System.out.println(rfih.getA(7, 1));
-			//rfih.saveImage("png", "C:\\Users\\Krzysztof\\Desktop\\pb1.png");
+			//rfih.saveImage("png", "C:/Test/pb1.png");
 			//rfih.preview(30);
 			//image.preview(30);
 			//RFImageUtils.rotateImage(image.getImage(), 120, true, 30);
