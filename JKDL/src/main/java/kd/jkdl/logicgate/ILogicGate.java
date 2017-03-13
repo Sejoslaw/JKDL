@@ -29,5 +29,5 @@ public interface ILogicGate<T>
 	 * @return Return the result of this logic gate based on given input.
 	 */
 	@SuppressWarnings("unchecked")
-	public abstract T result(T... input);
+	public abstract T getGateResult(T... input);
 }
