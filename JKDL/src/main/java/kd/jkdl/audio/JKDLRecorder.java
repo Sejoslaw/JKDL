@@ -41,7 +41,8 @@ public class JKDLRecorder
 	}
 	
 	/**
-	 * Record audio for the given duration (period of time) and into given file
+	 * Record audio for the given duration (period of time) and into given file. <br>
+	 * It will run new Thread to record and stop.
 	 * 
 	 * @param duration Number of milliseconds for which the recorder should record audio.
 	 * @param file File into which audio should be saved.
