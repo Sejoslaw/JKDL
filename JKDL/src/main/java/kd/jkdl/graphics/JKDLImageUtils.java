@@ -60,7 +60,9 @@ public class JKDLImageUtils
 	 * 
 	 * @param imageToRotate
 	 * @param angle - will be converted to radians
+	 * 
 	 * @return graphics of rotated picture
+	 * 
 	 * @throws PreviewImageSizeException zoomLevel must be bigger or equal 1
 	 */
 	public static Graphics2D rotateImage(JKDLImage JKDLImage, double angle, boolean preview, int zoomLevel) 

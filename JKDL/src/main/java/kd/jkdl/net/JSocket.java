@@ -16,7 +16,7 @@ import java.net.UnknownHostException;
 public class JSocket 
 {
 	/**
-	 * @return Return new ServerSocket.
+	 * @return Returns new ServerSocket.
 	 * 
 	 * @throws IOException
 	 * 
@@ -29,7 +29,7 @@ public class JSocket
 	}
 	
 	/**
-	 * @return Return new InetAddress.
+	 * @return Returns new InetAddress.
 	 * 
 	 * @throws UnknownHostException
 	 * 
@@ -43,7 +43,7 @@ public class JSocket
 	}
 	
 	/**
-	 * @return Return new Socket.
+	 * @return Returns new Socket.
 	 * 
 	 * @throws UnknownHostException
 	 * @throws IOException

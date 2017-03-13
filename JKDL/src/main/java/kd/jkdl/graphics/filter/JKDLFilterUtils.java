@@ -5,9 +5,14 @@ import java.io.IOException;
 import main.java.kd.jkdl.exception.JKDLPreviewImageSizeException;
 import main.java.kd.jkdl.graphics.JKDLImage;
 
-public class RFFilterUtils 
+/**
+ * This class contains various methods to operate on Java Filters.
+ * 
+ * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
+ */
+public class JKDLFilterUtils 
 {
-	private RFFilterUtils()
+	private JKDLFilterUtils()
 	{
 	}
 	

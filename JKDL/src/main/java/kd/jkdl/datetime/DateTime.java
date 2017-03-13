@@ -16,7 +16,7 @@ public class DateTime
 	}
 	
 	/**
-	 * @return Return current time in form of -> "HH.mm.ss"
+	 * @return Returns current time in form of -> "HH.mm.ss"
 	 */
 	public static String getCurrentTime()
 	{
@@ -24,7 +24,7 @@ public class DateTime
 	}
 	
 	/**
-	 * @return Return current day in form of -> "yyyy.MM.dd"
+	 * @return Returns current day in form of -> "yyyy.MM.dd"
 	 */
 	public static String getCurrentDay()
 	{
@@ -32,7 +32,7 @@ public class DateTime
 	}
 	
 	/**
-	 * @return Return the default current DateTime (Now) in form of -> "yyyy.MM.dd-HH.mm.ss"
+	 * @return Returns the default current DateTime (Now) in form of -> "yyyy.MM.dd-HH.mm.ss"
 	 */
 	public static String getDateTime()
 	{
@@ -44,7 +44,7 @@ public class DateTime
 	/**
 	 * @param format DateTime format. For default use -> "yyyy.MM.dd-HH.mm.ss" OR method without arguments.
 	 * 
-	 * @return Return Now in the given form.
+	 * @return Returns Now in the given form.
 	 */
 	public static String getDateTime(String format)
 	{

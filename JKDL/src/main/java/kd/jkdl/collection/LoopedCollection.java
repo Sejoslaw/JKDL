@@ -57,7 +57,7 @@ public class LoopedCollection<T> extends AbstractCollection<T> implements List<T
 	/**
 	 * LoopedCollection Iterator moves over and over through LoopedCollection elements.
 	 * 
-	 * @author Krzysztof Dobrzyñski -> https://github.com/Sejoslaw
+	 * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
 	 *
 	 * @param <T> Element type
 	 */

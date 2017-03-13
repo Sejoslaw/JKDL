@@ -1,7 +1,7 @@
 package test.graphics;
 
+import main.java.kd.jkdl.graphics.filter.JKDLFilterUtils;
 import main.java.kd.jkdl.graphics.filter.PosterizeFilter;
-import main.java.kd.jkdl.graphics.filter.RFFilterUtils;
 
 public class MainClass_Filter 
 {
@@ -10,7 +10,7 @@ public class MainClass_Filter
 		String testPicture = "C:/Test/pb.png";
 		try
 		{
-			RFFilterUtils.previewImageBeforeAndAfterFiltr(testPicture, new PosterizeFilter(), 30);
+			JKDLFilterUtils.previewImageBeforeAndAfterFiltr(testPicture, new PosterizeFilter(), 30);
 		}
 		catch(Exception e)
 		{

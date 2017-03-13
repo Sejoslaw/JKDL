@@ -81,7 +81,7 @@ public class JKDLAudio
 	 * Play audio from given File. <br>
 	 * It will play audio at new thread to make it cleaner.
 	 * 
-	 * @return Return thread which play audio.
+	 * @return thread which play audio.
 	 */
 	public static Thread playAudio(File file) 
 			throws UnsupportedAudioFileException, IOException
@@ -108,7 +108,7 @@ public class JKDLAudio
 	/**
 	 * Play audio from given InputStream.
 	 * 
-	 * @return Return thread which play audio.
+	 * @return thread which play audio.
 	 * 
 	 * @see InputStream
 	 */
@@ -128,7 +128,7 @@ public class JKDLAudio
 	/**
 	 * Play audio in a loop from given ContinuousAudioDataStream.
 	 * 
-	 * @return Return thread which play audio.
+	 * @return thread which play audio.
 	 * 
 	 * @see ContinuousAudioDataStream
 	 */
@@ -145,6 +145,9 @@ public class JKDLAudio
 		return sound;
 	}
 	
+	/**
+	 * @return thread which play audio.
+	 */
 	public static Thread loopAudio(File file)
 	{
 		Thread sound = new Thread()
@@ -169,7 +172,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return new ContinuousAudioDataStream
+	 * @return new ContinuousAudioDataStream
 	 * 
 	 * @see ContinuousAudioDataStream
 	 */
@@ -179,7 +182,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return AudioData from given AudioStream.
+	 * @return AudioData from given AudioStream.
 	 * 
 	 * @see AudioData
 	 */
@@ -190,7 +193,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return new AudioStream.
+	 * @return new AudioStream.
 	 * 
 	 * @see AudioStream
 	 */
@@ -201,7 +204,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return new AudioStream.
+	 * @return new AudioStream.
 	 * 
 	 * @see AudioStream
 	 */
@@ -224,7 +227,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return new JKDLRecorder preconfigured on wave type and WAV audio format.
+	 * @return new JKDLRecorder preconfigured on wave type and WAV audio format.
 	 * 
 	 * @see JKDLRecorder
 	 */
@@ -234,7 +237,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return new JKDLRecorder.
+	 * @return new JKDLRecorder.
 	 * 
 	 * @see JKDLRecorder
 	 */
@@ -252,7 +255,7 @@ public class JKDLAudio
 	 * @param format the format of the audio data contained in the file
 	 * @param frameLength the audio data length in sample frames, or <code>AudioSystem.NOT_SPECIFIED</code>
 	 * 
-	 * @return Return new AudioFileFormat.
+	 * @return new AudioFileFormat.
 	 * 
 	 * @see AudioFileFormat
 	 */
@@ -262,7 +265,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return preconfigured WAV audio format.
+	 * @return preconfigured WAV audio format.
 	 * 
 	 * @see AudioFormat
 	 * @see #newAudioFormat(float, int, int, boolean, boolean)
@@ -273,7 +276,7 @@ public class JKDLAudio
 	}
 	
 	/**
-	 * @return Return an <code>AudioFormat</code> with a linear PCM encoding and
+	 * @return an <code>AudioFormat</code> with a linear PCM encoding and
 	 * the given parameters.  The frame size is set to the number of bytes
 	 * required to contain one sample from each channel, and the frame rate
 	 * is set to the sample rate.

@@ -19,19 +19,14 @@ public class JKDLColor
 	{
 		return new Color(r, g, b, a);
 	}
-		
-	//============================================================================
 	
 	public static int getRGBA(int r, int g, int b, int a)
 	{
 		return new Color(r, g, b, a).getRGB();
 	}
 	
-	//============================================================================
-	
-	public static Color getColorOfPixelAt(JKDLImage rfImage, int xCoord, int yCoord)
+	public static Color getColorOfPixelAt(BufferedImage image, int xCoord, int yCoord)
 	{
-		BufferedImage image = rfImage.getImage();
 		int argb = image.getRGB(xCoord, yCoord);
 		Color c = new Color(argb);
 		return c;

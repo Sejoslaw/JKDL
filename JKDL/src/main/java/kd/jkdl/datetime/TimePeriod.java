@@ -34,7 +34,7 @@ public enum TimePeriod
 	}
 	
 	/**
-	 * @return Return the number of milliseconds in this time period.
+	 * @return Returns the number of milliseconds in this time period.
 	 */
 	public int toMilliseconds()
 	{
@@ -42,7 +42,7 @@ public enum TimePeriod
 	}
 	
 	/**
-	 * @return Return the name of this time period.
+	 * @return Returns the name of this time period.
 	 */
 	public String getPeriodName()
 	{

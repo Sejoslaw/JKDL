@@ -42,7 +42,7 @@ public class XMLWriter
 	private XMLPropertiesNode _propertiesNode = null;
 	
 	/**
-	 * @return Return the Properties Node.
+	 * @return Returns the Properties Node.
 	 */
 	public XMLPropertiesNode getPropertiesNode()
 	{
@@ -71,7 +71,7 @@ public class XMLWriter
 	}
 	
 	/**
-	 * @return Return all root Nodes.
+	 * @return Returns all root Nodes.
 	 */
 	public List<XMLNode> getRootNodes()
 	{
@@ -95,7 +95,7 @@ public class XMLWriter
 	}
 	
 	/**
-	 * @return Return the number of root Nodes.
+	 * @return Returns the number of root Nodes.
 	 */
 	public int getRootNodesNumber()
 	{
@@ -131,7 +131,7 @@ public class XMLWriter
 	}
 	
 	/**
-	 * @return Return XML in a form of String.
+	 * @return Returns XML in a form of String.
 	 */
 	public String writeToString()
 	{
@@ -141,7 +141,7 @@ public class XMLWriter
 	/**
 	 * @param file Path to File.
 	 * 
-	 * @return Return {@link File} with XML.
+	 * @return Returns {@link File} with XML.
 	 * 
 	 * @throws IOException 
 	 */

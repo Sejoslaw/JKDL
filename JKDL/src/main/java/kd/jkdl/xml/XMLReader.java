@@ -81,7 +81,7 @@ public class XMLReader
 	}
 	
 	/**
-	 * @return Return TRUE if the XML was read from file.
+	 * @return Returns TRUE if the XML was read from file.
 	 */
 	public boolean getIsFile()
 	{
@@ -89,7 +89,7 @@ public class XMLReader
 	}
 	
 	/**
-	 * @return Return XML file. NULL if XML was given as string, not from file.
+	 * @return Returns XML file. NULL if XML was given as string, not from file.
 	 */
 	public File getFile()
 	{
@@ -97,7 +97,7 @@ public class XMLReader
 	}
 	
 	/**
-	 * @return Return XML document.
+	 * @return Returns XML document.
 	 */
 	public Document getDocument()
 	{
@@ -105,7 +105,7 @@ public class XMLReader
 	}
 	
 	/**
-	 * @return Return root element of this document.
+	 * @return Returns root element of this document.
 	 */
 	public Element getRootElement()
 	{

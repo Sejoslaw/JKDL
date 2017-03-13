@@ -8,7 +8,7 @@ package main.java.kd.jkdl.system;
 public class SystemProperties 
 {
 	/**
-	 * @return Return system name.
+	 * @return Returns system name.
 	 */
 	public String getOSName()
 	{
@@ -16,7 +16,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return system version.
+	 * @return Returns system version.
 	 */
 	public String getOSVersion()
 	{
@@ -24,7 +24,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return system architecture.
+	 * @return Returns system architecture.
 	 */
 	public String getOSArchitecture()
 	{
@@ -32,7 +32,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return Java version. 
+	 * @return Returns Java version. 
 	 */
 	public String getJavaVersion()
 	{
@@ -40,7 +40,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return Java class version. 
+	 * @return Returns Java class version. 
 	 */
 	public String getJavaClassVersion()
 	{
@@ -48,7 +48,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return Sun architecture data model. 
+	 * @return Returns Sun architecture data model. 
 	 */
 	public String getSunArchitectureDataModel()
 	{
@@ -56,7 +56,7 @@ public class SystemProperties
 	}
 	
 	/**
-	 * @return Return user country. 
+	 * @return Returns user country. 
 	 */
 	public String getUserCountry()
 	{

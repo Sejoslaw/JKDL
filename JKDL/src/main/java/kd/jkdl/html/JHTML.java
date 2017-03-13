@@ -34,7 +34,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return Parser for HTMLDocument.
+	 * @return Returns Parser for HTMLDocument.
 	 * 
 	 * @see Parser
 	 */
@@ -44,7 +44,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return List of all child elements of specified element.
+	 * @return Returns List of all child elements of specified element.
 	 * 
 	 * @see Element
 	 */
@@ -63,7 +63,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return ViewFactory.
+	 * @return Returns ViewFactory.
 	 * 
 	 * @see ViewFactory
 	 */
@@ -73,7 +73,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return root Element.
+	 * @return Returns root Element.
 	 * 
 	 * @see Element
 	 */
@@ -83,7 +83,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new Document.
+	 * @return Returns new Document.
 	 * 
 	 * @see Document
 	 */
@@ -93,7 +93,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new HTMLEditorKit.
+	 * @return Returns new HTMLEditorKit.
 	 * 
 	 * @see HTMLEditorKit
 	 */
@@ -106,7 +106,7 @@ public class JHTML
 	 * @param styleSheet StyleSHeet which will be use for this Document. Can be NULL.
 	 * @param url URL of this Document.
 	 * 
-	 * @return Return new HTMLDocument.
+	 * @return Returns new HTMLDocument.
 	 * 
 	 * @throws MalformedURLException 
 	 * 
@@ -129,7 +129,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new StyleSheet.
+	 * @return Returns new StyleSheet.
 	 * 
 	 * @see StyleSheet
 	 */
@@ -139,7 +139,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new CSS.
+	 * @return Returns new CSS.
 	 * 
 	 * @see CSS
 	 */
@@ -149,7 +149,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new HTMLWriter.
+	 * @return Returns new HTMLWriter.
 	 * 
 	 * @see HTMLWriter#HTMLWriter(Writer, HTMLDocument, int, int)
 	 */
@@ -167,7 +167,7 @@ public class JHTML
 	}
 	
 	/**
-	 * @return Return new MinimalHTMLWriter.
+	 * @return Returns new MinimalHTMLWriter.
 	 * 
 	 * @see MinimalHTMLWriter#MinimalHTMLWriter(Writer, javax.swing.text.StyledDocument, int, int)
 	 */

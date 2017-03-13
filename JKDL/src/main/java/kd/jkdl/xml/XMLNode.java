@@ -61,7 +61,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return name of this Node.
+	 * @return Returns name of this Node.
 	 */
 	public String getNodeName()
 	{
@@ -69,7 +69,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return Map with all attributes of this Node.
+	 * @return Returns Map with all attributes of this Node.
 	 */
 	public Map<String, String> getAttributes()
 	{
@@ -86,7 +86,7 @@ public class XMLNode
 	 * @param name Name of the attribute
 	 * @param value Value of the attribute
 	 * 
-	 * @return Return this Node.
+	 * @return Returns this Node.
 	 */
 	public XMLNode addAttribute(String name, String value)
 	{
@@ -99,7 +99,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return the number of attributes of this Node.
+	 * @return Returns the number of attributes of this Node.
 	 */
 	public int getAttributesNumber()
 	{
@@ -107,7 +107,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return text which this node contains.
+	 * @return Returns text which this node contains.
 	 */
 	public String getText()
 	{
@@ -115,7 +115,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return all child Nodes.
+	 * @return Returns all child Nodes.
 	 */
 	public List<XMLNode> getChildNodes()
 	{
@@ -123,7 +123,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return Parent Node of this Node.
+	 * @return Returns Parent Node of this Node.
 	 */
 	public XMLNode getParentNode()
 	{
@@ -143,7 +143,7 @@ public class XMLNode
 	 * 
 	 * @param node Child to be add.
 	 * 
-	 * @return Return this Node.
+	 * @return Returns this Node.
 	 */
 	public XMLNode addChildNode(XMLNode child)
 	{
@@ -157,7 +157,7 @@ public class XMLNode
 	 * 
 	 * @param nodes Child Nodes to be add.
 	 * 
-	 * @return Return this Node.
+	 * @return Returns this Node.
 	 */
 	public XMLNode addChildNodes(XMLNode... childs)
 	{
@@ -185,7 +185,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return the number of child Nodes.
+	 * @return Returns the number of child Nodes.
 	 */
 	public int getChildNodesNumber()
 	{
@@ -193,7 +193,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Build Node in form of List.
+	 * @return Returns this Node in form of List.
 	 */
 	public List<String> build(String indent)
 	{
@@ -236,7 +236,7 @@ public class XMLNode
 	}
 	
 	/**
-	 * @return Return this Node and all child Nodes in a String format.
+	 * @return Returns this Node and all child Nodes in a String format.
 	 */
 	public String build()
 	{

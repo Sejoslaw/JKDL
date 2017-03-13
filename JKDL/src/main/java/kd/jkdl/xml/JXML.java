@@ -109,7 +109,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return DOMImplementation.
+	 * @return Returns DOMImplementation.
 	 * 
 	 * @see DOMImplementation
 	 */
@@ -119,7 +119,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return attribute node as Attr.
+	 * @return Returns attribute node as Attr.
 	 * 
 	 * @see Attr
 	 */
@@ -129,7 +129,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return Node attributes as NamedNodeMap.
+	 * @return Returns Node attributes as NamedNodeMap.
 	 * 
 	 * @see NamedNodeMap
 	 */
@@ -139,7 +139,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return Document from XML String.
+	 * @return Returns Document from XML String.
 	 * 
 	 * @throws ParserConfigurationException
 	 * @throws SAXException
@@ -156,7 +156,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return Document from File.
+	 * @return Returns Document from File.
 	 * 
 	 * @throws ParserConfigurationException
 	 * @throws SAXException
@@ -174,7 +174,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return NodeList with all child Nodes.
+	 * @return Returns NodeList with all child Nodes.
 	 * 
 	 * @see NodeList
 	 */
@@ -184,7 +184,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new XPath.
+	 * @return Returns new XPath.
 	 * 
 	 * @see XPath
 	 */
@@ -194,7 +194,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of DOMImplementationRegistry.
+	 * @return Returns new instance of DOMImplementationRegistry.
 	 * 
 	 * @throws ClassNotFoundException
 	 * @throws InstantiationException
@@ -210,7 +210,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new XPathFactory.
+	 * @return Returns new XPathFactory.
 	 * 
 	 * @see XPathFactory
 	 */
@@ -220,7 +220,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a Provider.
+	 * @return Returns a Provider.
 	 * 
 	 * @see Provider
 	 */
@@ -230,7 +230,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SchemaFactory.
+	 * @return Returns new SchemaFactory.
 	 * 
 	 * @see SchemaFactory
 	 */
@@ -240,7 +240,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SAXTransformerFactory.
+	 * @return Returns new SAXTransformerFactory.
 	 * 
 	 * @see SAXTransformerFactory
 	 */
@@ -250,7 +250,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a SOAPConnection.
+	 * @return Returns a SOAPConnection.
 	 * 
 	 * @throws SOAPException 
 	 * 
@@ -263,7 +263,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SOAPConnectionFactory.
+	 * @return Returns new SOAPConnectionFactory.
 	 * 
 	 * @throws SOAPException 
 	 * @throws UnsupportedOperationException 
@@ -277,7 +277,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a SOAPElement.
+	 * @return Returns a SOAPElement.
 	 * 
 	 * @throws SOAPException
 	 * 
@@ -290,7 +290,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SOAPFactory.
+	 * @return Returns new SOAPFactory.
 	 * 
 	 * @throws SOAPException
 	 * 
@@ -303,7 +303,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a SOAPHeader.
+	 * @return Returns a SOAPHeader.
 	 * 
 	 * @throws SOAPException 
 	 * 
@@ -315,7 +315,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a SOAPBody.
+	 * @return Returns a SOAPBody.
 	 * 
 	 * @throws SOAPException 
 	 * 
@@ -328,7 +328,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a SOAPPart.
+	 * @return Returns a SOAPPart.
 	 * 
 	 * @see SOAPPart
 	 */
@@ -338,7 +338,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SOAPMessage.
+	 * @return Returns new SOAPMessage.
 	 * 
 	 * @throws SOAPException
 	 * 
@@ -351,7 +351,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new MessageFactory.
+	 * @return Returns new MessageFactory.
 	 * 
 	 * @throws SOAPException 
 	 * 
@@ -364,7 +364,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return a XMLReader.
+	 * @return Returns a XMLReader.
 	 * 
 	 * @throws SAXException
 	 * 
@@ -377,7 +377,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SAXParser.
+	 * @return Returns new SAXParser.
 	 * 
 	 * @throws ParserConfigurationException
 	 * @throws SAXException
@@ -391,7 +391,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new SAXParserFactory.
+	 * @return Returns new SAXParserFactory.
 	 * 
 	 * @see SAXParserFactory
 	 */
@@ -401,7 +401,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new DatatypeFactory.
+	 * @return Returns new DatatypeFactory.
 	 * 
 	 * @throws DatatypeConfigurationException 
 	 * 
@@ -414,7 +414,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new Transformer.
+	 * @return Returns new Transformer.
 	 * 
 	 * @throws TransformerConfigurationException
 	 * 
@@ -427,7 +427,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of TransformerFactory.
+	 * @return Returns new instance of TransformerFactory.
 	 * 
 	 * @see TransformerFactory
 	 */
@@ -437,7 +437,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new JAXBSource
+	 * @return Returns new JAXBSource
 	 * 
 	 * @throws JAXBException
 	 * 
@@ -450,7 +450,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new JAXBResult.
+	 * @return Returns new JAXBResult.
 	 * 
 	 * @throws JAXBException
 	 * 
@@ -464,7 +464,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return value from JAXBElement.
+	 * @return Returns value from JAXBElement.
 	 * 
 	 * @see JAXBElement
 	 * @see JAXBIntrospector
@@ -476,7 +476,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of JAXBContext of the given Class.
+	 * @return Returns new instance of JAXBContext of the given Class.
 	 * 
 	 * @throws JAXBException
 	 * 
@@ -489,7 +489,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an JAXBIntrospector.
+	 * @return Returns an JAXBIntrospector.
 	 * 
 	 * @see JAXBIntrospector
 	 */
@@ -499,7 +499,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an Marshaller.
+	 * @return Returns an Marshaller.
 	 * 
 	 * @throws JAXBException 
 	 * 
@@ -512,7 +512,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an Unmarshaller.
+	 * @return Returns an Unmarshaller.
 	 * 
 	 * @throws JAXBException 
 	 * 
@@ -525,7 +525,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new Binder for Node class.
+	 * @return Returns new Binder for Node class.
 	 * 
 	 * @see Binder
 	 * @see Node
@@ -536,7 +536,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of XMLEventFactory.
+	 * @return Returns new instance of XMLEventFactory.
 	 * 
 	 * @see XMLEventFactory#newFactory
 	 */
@@ -546,7 +546,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of XMLInputFactory.
+	 * @return Returns new instance of XMLInputFactory.
 	 * 
 	 * @see XMLInputFactory#newFactory
 	 */
@@ -556,7 +556,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLOutputFactory.
+	 * @return Returns an XMLOutputFactory.
 	 * 
 	 * @see XMLOutputFactory
 	 */
@@ -566,7 +566,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return instance of XMLSignatureFactory.
+	 * @return Returns instance of XMLSignatureFactory.
 	 * 
 	 * @see XMLSignatureFactory#getInstance
 	 */
@@ -576,7 +576,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return instance of DocumentBuilderFactory
+	 * @return Returns instance of DocumentBuilderFactory
 	 * 
 	 * @see DocumentBuilderFactory
 	 */
@@ -586,7 +586,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new instance of XMLFormatter.
+	 * @return Returns new instance of XMLFormatter.
 	 * 
 	 * @see XMLFormatter
 	 */
@@ -599,7 +599,7 @@ public class JXML
 	 * @param file File from which reader should read data.
 	 * @param isFile Indicates if XML should be read from File.
 	 * 
-	 * @return Return new XMLReader.
+	 * @return Returns new XMLReader.
 	 * 
 	 * @throws ParserConfigurationException
 	 * @throws SAXException
@@ -616,7 +616,7 @@ public class JXML
 	/**
 	 * @param out Stream into which XML should be write.
 	 * 
-	 * @return Return new XMLEncoder.
+	 * @return Returns new XMLEncoder.
 	 * 
 	 * @see XMLEncoder
 	 */
@@ -628,7 +628,7 @@ public class JXML
 	/**
 	 * @param in Stream from which XML should be read.
 	 * 
-	 * @return Return new XMLDecoder.
+	 * @return Returns new XMLDecoder.
 	 * 
 	 * @see XMLDecoder
 	 */
@@ -640,7 +640,7 @@ public class JXML
 	/**
 	 * @param in Source from which XML should be read.
 	 * 
-	 * @return Return new XMLDecoder.
+	 * @return Returns new XMLDecoder.
 	 * 
 	 * @see XMLDecoder
 	 */
@@ -650,7 +650,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLGregorianCalendar.
+	 * @return Returns an XMLGregorianCalendar.
 	 * 
 	 * @throws DatatypeConfigurationException
 	 * 
@@ -663,7 +663,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLObject.
+	 * @return Returns an XMLObject.
 	 * 
 	 * @see XMLSignatureFactory#newXMLObject(List, String, String, String)
 	 */
@@ -675,7 +675,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLSignature.
+	 * @return Returns an XMLSignature.
 	 * 
 	 * @see XMLSignatureFactory#newXMLSignature(SignedInfo, KeyInfo, List, String, String)
 	 */
@@ -687,7 +687,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLStreamReader.
+	 * @return Returns an XMLStreamReader.
 	 * 
 	 * @throws XMLStreamException
 	 * 
@@ -700,7 +700,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLStreamWriter
+	 * @return Returns an XMLStreamWriter
 	 * 
 	 * @throws XMLStreamException
 	 * 
@@ -713,7 +713,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLEventReader
+	 * @return Returns an XMLEventReader
 	 * 
 	 * @throws XMLStreamException
 	 * 
@@ -726,7 +726,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLEventWriter
+	 * @return Returns an XMLEventWriter
 	 * 
 	 * @throws XMLStreamException
 	 * 
@@ -739,7 +739,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLResolver.
+	 * @return Returns an XMLResolver.
 	 * 
 	 * @see XMLResolver
 	 */
@@ -749,7 +749,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLReporter.
+	 * @return Returns an XMLReporter.
 	 * 
 	 * @see XMLReporter
 	 */
@@ -759,7 +759,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return an XMLEventAllocator
+	 * @return Returns an XMLEventAllocator
 	 * 
 	 * @see XMLEventAllocator
 	 */
@@ -769,7 +769,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new {@link org.xml.sax.XMLReader}
+	 * @return Returns new {@link org.xml.sax.XMLReader}
 	 * 
 	 * @throws SAXException 
 	 * 
@@ -783,7 +783,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new XMLReaderAdapter.
+	 * @return Returns new XMLReaderAdapter.
 	 * 
 	 * @throws SAXException
 	 * 
@@ -798,7 +798,7 @@ public class JXML
 	/**
 	 * @param parent The parent reader.
 	 * 
-	 * @return Return new XMLFilter.
+	 * @return Returns new XMLFilter.
 	 * 
 	 * @see XMLFilter
 	 */
@@ -810,7 +810,7 @@ public class JXML
 	/**
 	 * @param file Path to file.
 	 * 
-	 * @return Return XMLReader which already read the XML file.
+	 * @return Returns XMLReader which already read the XML file.
 	 * 
 	 * @throws IOException 
 	 * @throws SAXException 
@@ -829,7 +829,7 @@ public class JXML
 	 * @param file Path to file.
 	 * @param clazz Class that extends {@link DefaultHandler}.
 	 * 
-	 * @return Return SAXParser which has already read given XML file.
+	 * @return Returns SAXParser which has already read given XML file.
 	 * 
 	 * @throws IOException 
 	 * @throws SAXException 
@@ -848,7 +848,7 @@ public class JXML
 	 * @param file Path to file.
 	 * @param clazz Class that extends {@link DefaultHandler}.
 	 * 
-	 * @return Return SAXParser which has already read given XML file.
+	 * @return Returns SAXParser which has already read given XML file.
 	 * 
 	 * @throws InstantiationException
 	 * @throws IllegalAccessException
@@ -896,7 +896,7 @@ public class JXML
 	 * @param file File into which objects will be written.
 	 * @param objectToWrite Object to write.
 	 * 
-	 * @return Return TRUE if object was written correctly, else returns FALSE.
+	 * @return Returns TRUE if object was written correctly, else returns FALSE.
 	 * 
 	 * @throws IOException This Exception is thrown if something went wrong with File.
 	 * 
@@ -927,7 +927,7 @@ public class JXML
 	 * @param file File into which objects will be written.
 	 * @param objectsToWrite Object array to write.
 	 * 
-	 * @return Return TRUE if object was written correctly, else returns FALSE.
+	 * @return Returns TRUE if object was written correctly, else returns FALSE.
 	 * 
 	 * @throws IOException This Exception is thrown if something went wrong with File.
 	 * 
@@ -957,7 +957,7 @@ public class JXML
 	/**
 	 * @param file File from which objects should be read.
 	 * 
-	 * @return Return all read objects from given File.
+	 * @return Returns all read objects from given File.
 	 * 
 	 * @throws FileNotFoundException This Exception is thrown if something went wrong with File.
 	 * 
@@ -1000,7 +1000,7 @@ public class JXML
 	}
 	
 	/**
-	 * @return Return new XMLWriter.
+	 * @return Returns new XMLWriter.
 	 * 
 	 * @see XMLWriter
 	 */

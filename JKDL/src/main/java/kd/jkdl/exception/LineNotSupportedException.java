@@ -21,7 +21,7 @@ public class LineNotSupportedException extends Exception
 	}
 	
 	/**
-	 * @return Return DataLine.Info which was checked and is not supported.
+	 * @return Returns DataLine.Info which was checked and is not supported.
 	 */
 	public Info getLine()
 	{
