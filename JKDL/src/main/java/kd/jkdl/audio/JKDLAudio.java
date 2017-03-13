@@ -51,7 +51,6 @@ public class JKDLAudio
 	 * 
 	 * @see InputStream
 	 */
-	@Deprecated
 	public static void stopAudio(InputStream inputStream)
 	{
 		AudioPlayer.player.stop(inputStream);
@@ -62,12 +61,10 @@ public class JKDLAudio
 	 * 
 	 * @see AudioInputStream
 	 */
-	@Deprecated
 	public static void stopAudio(File file) 
 			throws UnsupportedAudioFileException, IOException
 	{
-		AudioInputStream ais = AudioSystem.getAudioInputStream(file);
-		AudioPlayer.player.stop(ais);
+		AudioPlayer.player.stop(AudioSystem.getAudioInputStream(file));
 	}
 	
 	/**
@@ -75,45 +72,100 @@ public class JKDLAudio
 	 * 
 	 * @see ContinuousAudioDataStream
 	 */
-	@Deprecated
 	public static void stopLoopAudio(ContinuousAudioDataStream cas)
 	{
 		AudioPlayer.player.stop(cas);
 	}
 	
 	/**
-	 * Play audio from given File.
+	 * Play audio from given File. <br>
+	 * It will play audio at new thread to make it cleaner.
 	 * 
-	 * @see AudioInputStream
+	 * @return Return thread which play audio.
 	 */
-	@Deprecated
-	public static void playAudio(File file) 
+	public static Thread playAudio(File file) 
 			throws UnsupportedAudioFileException, IOException
 	{
-		AudioInputStream ais = AudioSystem.getAudioInputStream(file);
-		AudioPlayer.player.start(ais);
+		Thread sound = new Thread()
+		{
+			public void run()
+			{
+				try 
+				{
+					AudioPlayer.player.start(newAudioStream(file));
+				} 
+				catch(IOException e) 
+				{
+					e.printStackTrace();
+					return;
+				}
+			}
+		};
+		sound.start();
+		return sound;
 	}
 	
 	/**
 	 * Play audio from given InputStream.
 	 * 
+	 * @return Return thread which play audio.
+	 * 
 	 * @see InputStream
 	 */
-	@Deprecated
-	public static void playAudio(InputStream inputStream)
+	public static Thread playAudio(InputStream inputStream)
 	{
-		AudioPlayer.player.start(inputStream);
+		Thread sound = new Thread()
+		{
+			public void run()
+			{
+				AudioPlayer.player.start(inputStream);
+			}
+		};
+		sound.start();
+		return sound;
 	}
 	
 	/**
 	 * Play audio in a loop from given ContinuousAudioDataStream.
 	 * 
+	 * @return Return thread which play audio.
+	 * 
 	 * @see ContinuousAudioDataStream
 	 */
-	@Deprecated
-	public static void loopAudio(ContinuousAudioDataStream cas)
+	public static Thread loopAudio(ContinuousAudioDataStream cas)
 	{
-		AudioPlayer.player.start(cas);
+		Thread sound = new Thread()
+		{
+			public void run()
+			{
+				AudioPlayer.player.start(cas);
+			}
+		};
+		sound.start();
+		return sound;
+	}
+	
+	public static Thread loopAudio(File file)
+	{
+		Thread sound = new Thread()
+		{
+			public void run()
+			{
+				try 
+				{
+					AudioData audioData = getAudioData(newAudioStream(file));
+					ContinuousAudioDataStream stream = newContinuousAudioDataStream(audioData);
+					AudioPlayer.player.start(stream);
+				} 
+				catch(IOException e) 
+				{
+					e.printStackTrace();
+					return;
+				}
+			}
+		};
+		sound.start();
+		return sound;
 	}
 	
 	/**
@@ -121,7 +173,6 @@ public class JKDLAudio
 	 * 
 	 * @see ContinuousAudioDataStream
 	 */
-	@Deprecated
 	public static ContinuousAudioDataStream newContinuousAudioDataStream(AudioData data)
 	{
 		return new ContinuousAudioDataStream(data);
@@ -132,7 +183,6 @@ public class JKDLAudio
 	 * 
 	 * @see AudioData
 	 */
-	@Deprecated
 	public static AudioData getAudioData(AudioStream stream) 
 			throws IOException
 	{
@@ -144,7 +194,6 @@ public class JKDLAudio
 	 * 
 	 * @see AudioStream
 	 */
-	@Deprecated
 	public static AudioStream newAudioStream(URL url) 
 			throws IOException
 	{
@@ -156,7 +205,6 @@ public class JKDLAudio
 	 * 
 	 * @see AudioStream
 	 */
-	@Deprecated
 	public static AudioStream newAudioStream(File file) 
 			throws FileNotFoundException, IOException
 	{
