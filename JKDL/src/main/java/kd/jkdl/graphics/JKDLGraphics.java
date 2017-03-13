@@ -15,8 +15,8 @@ import javax.swing.JColorChooser;
 import javax.swing.Timer;
 
 /**
- * TODO: Add support for Java build-in Graphics API.
- * 
+ * TODO: Add support for Java build-in Graphics API.<br>
+ * <br>
  * This class contains various methods to operate on Java Graphics API.
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw

@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 /**
- * TODO: Finish Recovery Tool
- * 
+ * TODO: Finish Recovery Tool<br>
+ * <br>
  * This tool will read serialized file and returned every piece of data possible to read from the File.
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw

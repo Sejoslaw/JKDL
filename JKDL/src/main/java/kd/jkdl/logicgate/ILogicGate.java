@@ -1,8 +1,8 @@
 package main.java.kd.jkdl.logicgate;
 
 /**
- * TODO: Create all basic logic gates.
- * 
+ * TODO: Create all basic logic gates.<br>
+ * <br>
  * Determines basics of each logic gate.
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
