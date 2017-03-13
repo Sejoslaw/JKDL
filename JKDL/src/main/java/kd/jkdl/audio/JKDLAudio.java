@@ -11,10 +11,9 @@ import javax.sound.sampled.SourceDataLine;
 import javax.sound.sampled.TargetDataLine;
 
 /**
- * TODO: Add support for Java build-in Audio API.
- * 
  * This class contains various methods to operate on Java Audio API. <br>
- * This is basically a handler for most of Java build-in methods.
+ * This is basically a handler for most of Java build-in methods. <br>
+ * Try to use {@link AudioSystem}, this class contains most of needed methods.
  * 
  * @author <a href="mailto:k.dobrzynski94@gmail.com">Krzysztof Dobrzyñski</a> -> https://github.com/Sejoslaw
  * 
