@@ -147,7 +147,7 @@ public class ColorHalftoneFilter extends AbstractBufferedImageOp
 
                     float f = 1;
 
-                    // TODO: Efficiency warning: Because the dots overlap, we need to check neighbouring grid squares.
+                    // FIXME: Efficiency warning: Because the dots overlap, we need to check neighbouring grid squares.
                     // We check all four neighbours, but in practice only one can ever overlap any given point.
                     for ( int i = 0; i < 5; i++ ) 
                     {
