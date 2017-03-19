@@ -276,6 +276,30 @@ public class JKDLAudio
 	}
 	
 	/**
+	 * @return preconfigured Mono8 audio format.
+	 */
+	public static AudioFormat newAudioFormatMono8()
+	{
+		return new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100, 8, 1, 1, 44100, false);
+	}
+	
+	/**
+	 * @return preconfigured Mono16 audio format.
+	 */
+	public static AudioFormat newAudioFormatMono16()
+	{
+		return new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100, 16, 1, 2, 44100, false);
+	}
+	
+	/**
+	 * @return preconfigured Stereo8 audio format.
+	 */
+	public static AudioFormat newAudioFormatStereo8()
+	{
+		return new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100, 8, 2, 2, 44100, false);
+	}
+	
+	/**
 	 * @return an <code>AudioFormat</code> with a linear PCM encoding and
 	 * the given parameters.  The frame size is set to the number of bytes
 	 * required to contain one sample from each channel, and the frame rate
