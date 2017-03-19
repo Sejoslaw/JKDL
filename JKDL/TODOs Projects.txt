@@ -1,0 +1,77 @@
+1. Reading C Structs
+http://mindprod.com/project/readc.html
+
+2. Regex Utility
+http://mindprod.com/project/regexutility.html
+
+3. SAX File Transfer Protocol
+http://mindprod.com/project/sax.html
+
+4. Super Compressor
+http://mindprod.com/project/supercompressor.html
+
+5. uPath to Relative
+http://mindprod.com/project/upathtorelative.html
+
+6. Voice Compression
+http://mindprod.com/project/voicecompression.html
+
+7. Pitch Corrector
+http://mindprod.com/project/pitcher.html
+
+8. What’s That Char?
+http://mindprod.com/project/whatsthatchar.html
+
+9. hex calculator
+http://mindprod.com/project/hexcalc.html
+
+10. Image Compressor
+http://mindprod.com/project/imagecompressor.html
+
+11. INI File Tidier
+http://mindprod.com/project/inifiletidier.html
+
+12. Internet Radio System
+http://mindprod.com/project/internetradio.html
+
+13. Jar Clicker
+http://mindprod.com/project/jarclicker.html
+
+14. Jar Prune
+http://mindprod.com/project/jarprune.html
+
+15. Java File System
+http://mindprod.com/project/javafilesystem.html
+
+16. Java Invoker
+http://mindprod.com/project/javainvoker.html
+
+17. JVM Manager
+http://mindprod.com/project/jvmmanager.html
+
+18. SCID
+http://mindprod.com/project/scid.html
+
+19. Java Source Code Presenter
+http://mindprod.com/project/javapresenter.html
+
+20. External Sort
+http://mindprod.com/project/externalsort.html
+
+21. Associations Editor
+http://mindprod.com/project/association.html
+
+22. CSS Annotator
+http://mindprod.com/project/cssannotator.html
+
+23. CSS Fixer
+http://mindprod.com/project/cssfixer.html
+
+24. Delta Creator
+http://mindprod.com/project/deltacreator.html
+
+25. Convert AWT to Swing
+http://mindprod.com/project/swingizer.html  &&  http://mindprod.com/jgloss/awt.html
+
+26. Text to HTML
+http://mindprod.com/project/texttohtml.html

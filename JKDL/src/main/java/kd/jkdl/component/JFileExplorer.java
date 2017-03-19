@@ -16,6 +16,8 @@ import javax.swing.filechooser.FileView;
  * @see FileView
  * @see JDialog
  * @see FileSystemView
+ * 
+ * @see {@link <a href="http://mindprod.com/project/explorer.html">Original Project Description</a>}
  */
 public class JFileExplorer
 {
