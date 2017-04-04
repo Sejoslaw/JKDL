@@ -79,7 +79,7 @@ public class JKDLColor
 	public final static Color BROWN = new Color(165,42,42);
 	public final static Color ROSYBROWN = new Color(188,143,143);
 	public final static Color SIENNA = new Color(160,82,45);
-	public final static Color SADDLEBROWN = new Color(2139,69,19);
+	public final static Color SADDLEBROWN = new Color(139,69,19); // 2139 ???
 	public final static Color CHOCOLATE = new Color(210,105,30);
 	public final static Color SANDYBROWN = new Color(244,164,96);
 	public final static Color PERU = new Color(205,133,63);
