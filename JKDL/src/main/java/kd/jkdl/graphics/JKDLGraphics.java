@@ -2,6 +2,7 @@ package main.java.kd.jkdl.graphics;
 
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
@@ -9,6 +10,7 @@ import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
 import java.awt.Rectangle;
 import java.awt.Shape;
+import java.awt.Toolkit;
 import java.awt.event.ActionListener;
 
 import javax.swing.JColorChooser;
@@ -184,5 +186,13 @@ public class JKDLGraphics
 	public static JColorChooser newColorChooser()
 	{
 		return new JColorChooser();
+	}
+	
+	/**
+	 * @return Returns the default dimension of the Screen.
+	 */
+	public static Dimension getScreenSize()
+	{
+		return Toolkit.getDefaultToolkit().getScreenSize();
 	}
 }
