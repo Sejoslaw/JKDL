@@ -62,4 +62,12 @@ public class SystemProperties
 	{
 		return System.getProperty("user.country");
 	}
+	
+	/**
+	 * @return Returns the current path for libraries.
+	 */
+	public String getLibraryPath()
+	{
+		return System.getProperty("java.library.path");
+	}
 }
