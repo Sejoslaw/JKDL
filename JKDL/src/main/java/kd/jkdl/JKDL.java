@@ -11,8 +11,7 @@ public class JKDL
 	/**
 	 * Current version of JKDL - Last build time.
 	 */
-	public static final String VERSION = "2017.03.10-18.35.52";	
-	/**
+	public static final String VERSION = "2017.04.14-17.09.04";	/**
 	 * JKDL internal logger.
 	 */
 	public static final Logger LOGGER = Logger.getLogger("JKDL");
