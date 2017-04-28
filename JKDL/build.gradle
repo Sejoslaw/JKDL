@@ -28,8 +28,9 @@ String getVersionFromJava(File file) {
     String prefix = "public static final String VERSION = \"";
     file.eachLine { String s ->
         String v = s.trim();
-        if(v.startsWith(prefix)) {
-            outfile += ("	" + prefix + buildDate + "\";");
+        if(v.startsWith(prefix)) 
+        {
+            outfile += ("	" + prefix + buildDate + "\";" + ln);
         }
         else
         {
